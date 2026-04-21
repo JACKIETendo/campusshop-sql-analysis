@@ -3,24 +3,22 @@ Project Overview
 CampusShop is a university-based e-commerce platform (Bugema University) that sells branded merchandise including T-shirts, notebooks, bags, pens, bottles, and wall clocks. The platform also features an Innovation Hub where students can list and sell their own creative projects.
 This project performs a complete SQL data analysis of the CampusShop database to uncover sales trends, customer behavior, inventory health, and business performance.
 Database: `campusshop_db`
-Tables Overview
-
- Table | Description 
-| `users` | Registered customers and admins |
-| `products` | Campus merchandise for sale |
-| `orders` | Customer purchase orders |
-| `order_items` | Individual items within each order |
-| `pending_deliveries` | Delivery tracking records |
-| `product_movements` | Stock movement log (sales, gifts, damage) |
-| `favorites` | Products saved by customers |
-| `cart` | Items in customers' active shopping carts |
-| `feedback` | Customer messages and admin replies |
-| `notifications` | System notifications sent to users |
-| `innovation_hub_products` | Student-created products |
-| `innovation_cart` | Carts for innovation products |
-| `innovation_favorites` | Wishlists for innovation products |
-| `abandoned_carts` | Carts that were not checked out |
-| `coupons` | Discount coupons |
+ 
+`users`  Registered customers and admins 
+`products` Campus merchandise for sale 
+`orders` Customer purchase orders
+`order_items` Individual items within each order
+`pending_deliveries` Delivery tracking records
+`product_movements` Stock movement log (sales, gifts, damage)
+`favorites` Products saved by customers
+`cart` Items in customers' active shopping carts
+`feedback` Customer messages and admin replies
+`notifications` System notifications sent to users
+`innovation_hub_products` Student-created products
+`innovation_cart` Carts for innovation products
+`innovation_favorites` Wishlists for innovation products
+`abandoned_carts` Carts that were not checked out
+`coupons` Discount coupons
 
 Project Structure
 campusshop_sql_project/
@@ -95,7 +93,6 @@ Key Business Findings
 7. The Innovation Hub has 4 student projects, 3 approved, 1 pending.
 
 Tools Used
-
 - Database: MySQL 
 - Query Editor: MySQL Workbench
 - SQL Version: Compatible with MySQL 5.7+
