@@ -21,27 +21,21 @@ Database: `campusshop_db`
 `coupons` Discount coupons
 
 Project Structure
-campusshop_sql_project/
-│
-├── phase1_exploration/
-│   └── explore database.sql       Know your data first
-│
-├── phase2_cleaning/
-│   └── data cleaning.sql          Find and flag data issues
-│
-├── phase3_analysis/
-│   └── core analysis.sql          Answer basic business questions
-│
-├── phase4_advanced/
-│   └── advanced queries.sql       JOINs, CTEs, Window Functions
-│
-├── phase5_business_insights/
-│   └── business_insights.sql      Final reports for management
-│
-└── docs/
-    └── README.md                      This file (project documentation)
-Analysis Phases
+      campusshop_sql_project/
+phase1_exploration/
+    explore database.sql       Know your data first
+phase2_cleaning/
+   data cleaning.sql          Find and flag data issues
+phase3_analysis/
+   core analysis.sql          Answer basic business questions
+phase4_advanced/
+   advanced queries.sql       JOINs, CTEs, Window Functions
+phase5_business_insights/
+   business_insights.sql      Final reports for management
+docs/
+    README.md                 This file (project documentation)
 
+Analysis Phases
 Phase 1 – Database Exploration
 - View all tables and their structure (`SHOW TABLES`, `DESCRIBE`)
 - Preview sample data from each table
