@@ -1,7 +1,10 @@
 CampusShop SQL Analytics Project
+
 Project Overview
+
 CampusShop is a university-based e-commerce platform (Bugema University) that sells branded merchandise including T-shirts, notebooks, bags, pens, bottles, and wall clocks. The platform also features an Innovation Hub where students can list and sell their own creative projects.
 This project performs a complete SQL data analysis of the CampusShop database to uncover sales trends, customer behavior, inventory health, and business performance.
+
 Database: `campusshop_db`
  
 `users`  Registered customers and admins 
@@ -21,7 +24,8 @@ Database: `campusshop_db`
 `coupons` Discount coupons
 
 Project Structure
-      campusshop_sql_project/
+
+campusshop_sql_project/
 phase1_exploration/
     explore database.sql       Know your data first
 phase2_cleaning/
@@ -36,6 +40,7 @@ docs/
     README.md                 This file (project documentation)
 
 Analysis Phases
+
 Phase 1 – Database Exploration
 - View all tables and their structure (`SHOW TABLES`, `DESCRIBE`)
 - Preview sample data from each table
@@ -77,7 +82,9 @@ Phase 5 – Business Insights
 - Order fulfillment rate
 - Customer feedback response analysis
 SQL Skills Practiced:`CASE WHEN`, `COALESCE()`, `TIMESTAMPDIFF()`, `DATEDIFF()`, advanced aggregations
+
 Key Business Findings
+
 1. Bags and T-Shirts are the highest revenue categories.
 2. Several products like **Tote bags and Laptop bags** have very low stock and high cart demand.
 3. User 1 (Tendo) is the most active customer with the most orders and highest spend.
@@ -87,11 +94,13 @@ Key Business Findings
 7. The Innovation Hub has 4 student projects, 3 approved, 1 pending.
 
 Tools Used
+
 - Database: MySQL 
 - Query Editor: MySQL Workbench
 - SQL Version: Compatible with MySQL 5.7+
 
 Author
+
 Nakanjako Tendo Jackline
 Data Analytics Learner | SQL Project Portfolio
 (https://github.com/JACKIETendo)
