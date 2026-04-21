@@ -127,6 +127,7 @@ Tools Used
 Author
 
 Nakanjako Tendo Jackline
+
 Data Analytics Learner | SQL Project Portfolio
 
 (https://github.com/JACKIETendo)
